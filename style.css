@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", serif;
+}
+
+nav {
+  display: flex;
+  transition: 0.3 all ease;
+  cursor: pointer;
+  height: 40px;
+  align-items: center;
+  border: 1px solid #f0f0f5;
+  border-radius: 5px;
+}
+.about > li:hover {
+  transition: all 0.3 ease;
+  color: #566573;
+  border-bottom: 4px solid #d0d3d4;
+}
+.contact-button > span button:hover {
+  background: #5d6d7e;
+  transition: all 0.3 ease;
+}
+.about-2 {
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  position: relative;
+}
+.projects {
+  align-items: center;
+  /* width: 100vh; */
+  position: relative;
+  margin: 20px 15px;
+  top: 2px;
+  gap: 40px;
+  border-top: 2px solid #f0f0f5;
+  border-bottom: 2px solid #f0f0f5;
+  height: 190px;
+}
+
+.profile-pic {
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;
+  background-size: cover;
+  background-color: transparent;
+  background-image: url(./image/PXL_20240830_075020707.jpg);
+  display: flex;
+  background-position: center;
+  position: relative;
+  right: 20px;
+}
+.enter-your-name,
+.Email {
+  height: 35px;
+  width: 300px;
+  border: 2px solid transparent;
+  border-radius: 8px;
+}
+.message {
+  height: 100px;
+  border-radius: 8px;
+  font-size: 20px;
+
+  text-overflow: wrap;
+}
+.submit-btn {
+  height: 35px;
+  margin-top: 20px;
+  background-color: #1a5276;
+  display: flex;
+  font-weight: 500;
+  font-size: 20px;
+  color: #bbc9d0e1;
+  border-radius: 8px;
+  align-items: center;
+}
+
+.submit-me {
+  position: relative;
+  left: 115px;
+}
+
+.form {
+  border: 2px solid #a6acaf;
+  border-radius: 10px;
+  box-shadow: ;
+}
+.contact-me {
+  height: 400px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 20px;
+}
+.social-site {
+  font-size: 30px;
+  cursor: pointer;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  width: 180px;
+  justify-content: space-between;
+  padding-left: 0;
+  border: 2px solid;
+  height: 45px;
+  border: 2px solid #a6acaf;
+  border-radius: 10px;
+  padding: 0 10px;
+}
